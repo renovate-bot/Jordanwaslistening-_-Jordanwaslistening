@@ -1,5 +1,18 @@
 - 👋 Hi, I’m @Jordanwaslistening
-- 👀 I’m interested in ...
+- 👀 I’m interested in ...Main Schema
+{
+    "allOf": [
+        {
+            "$ref": "./devContainer.base.schema.json"
+        },
+        {
+            "$ref": "https://raw.githubusercontent.com/microsoft/vscode/main/extensions/configuration-editing/schemas/devContainer.codespaces.schema.json"
+        },
+        {
+            "$ref": "https://raw.githubusercontent.com/microsoft/vscode/main/extensions/configuration-editing/schemas/devContainer.vscode.schema.json"
+        }
+    ]
+}
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
